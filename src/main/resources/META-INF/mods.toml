@@ -1,0 +1,19 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="MIT"
+
+[[mods]]
+modId="fabulousores"
+version="${file.jarVersion}"
+displayName="Fabulous Ores"
+authors="Traverse_Joe"
+description='''
+A mod with all the ores in various forms (Dense , Nether, and End Variants)
+'''
+
+[[dependencies.materia]]
+    modId="forge"
+    mandatory=true
+    versionRange="[35,)"
+    ordering="NONE"
+    side="BOTH"
