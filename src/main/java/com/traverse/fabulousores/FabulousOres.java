@@ -2,8 +2,11 @@ package com.traverse.fabulousores;
 
 import com.traverse.fabulousores.init.OreManager;
 import com.traverse.fabulousores.init.RegistryHandler;
+import com.traverse.fabulousores.worldgen.FabulousOresFeature;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -28,6 +31,7 @@ public class FabulousOres {
         OreManager.init();
         RegistryHandler.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         RegistryHandler.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, FabulousOresFeature::addOres);
 
     }
 

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "fabulousores:aluminum_block",
+    "fabulousores:copper_block",
+    "fabulousores:lead_block",
+    "fabulousores:nickel_block",
+    "fabulousores:osmium_block",
+    "fabulousores:platinum_block",
+    "fabulousores:silver_block",
+    "fabulousores:tin_block",
+    "fabulousores:uranium_block",
+    "fabulousores:zinc_block"
+
+  ]
+}

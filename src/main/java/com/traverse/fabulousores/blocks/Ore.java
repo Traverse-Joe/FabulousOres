@@ -31,6 +31,10 @@ public abstract class Ore extends Block {
         return harvestLevel;
     }
 
+    public int getHarvestLevel() {
+        return harvestLevel;
+    }
+
     public ResourceLocation getId() {
         return id;
     }

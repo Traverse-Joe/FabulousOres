@@ -2,31 +2,26 @@ package com.traverse.fabulousores.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
-import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.enchantment.Enchantments;
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
+import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.monster.EndermiteEntity;
-import net.minecraft.entity.monster.SilverfishEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.Explosion;
 import net.minecraft.world.World;
 
 import java.util.Random;
 
-public class BaseNetherOre extends BaseOreBlock {
+public class BaseEndOre extends BaseOreBlock {
 
-
-    public BaseNetherOre(String name, int harvestLevel, int color) {
+    public BaseEndOre(String name, int harvestLevel, int color) {
         super(name, harvestLevel, color);
     }
 
-    public BaseNetherOre(String name, BaseOreBlock base) {
+    public BaseEndOre(String name, BaseOreBlock base) {
         super(name, base.harvestLevel, base.color);
     }
 
@@ -39,7 +34,12 @@ public class BaseNetherOre extends BaseOreBlock {
                 if (random.nextInt(100) < percent) {
                     Block block = state.getBlock();
                     block.destroy(world, blockPos, state);
-                    world.explode(player, blockPos.getX(), blockPos.getY(), blockPos.getZ(), 1.0F, Explosion.Mode.DESTROY);
+                    EndermiteEntity endermite = new EndermiteEntity(EntityType.ENDERMITE, world);
+                    endermite.getAttribute(Attributes.MAX_HEALTH).setBaseValue(10);
+                    endermite.setHealth(10);
+                    endermite.getAttribute(Attributes.ATTACK_DAMAGE).setBaseValue(4);
+                    endermite.setPos(blockPos.getX(), blockPos.getY(), blockPos.getZ());
+                    world.addFreshEntity(endermite);
                 }
             }
 
