@@ -43,10 +43,39 @@ public class RegistryHandler {
     public static final RegistryObject<Block> ZINC_ORE = BLOCKS.register("zinc_ore", () -> OreManager.ZINC_ORE);
 
     //NETHER ORES
+    public static final RegistryObject<Block> NETHER_ALUMINUM_ORE = BLOCKS.register("nether_aluminum_ore", () -> OreManager.NETHER_ALUMINUM_ORE);
     public static final RegistryObject<Block> NETHER_COPPER_ORE = BLOCKS.register("nether_copper_ore", () -> OreManager.NETHER_COPPER_ORE);
+    public static final RegistryObject<Block> NETHER_COAL_ORE = BLOCKS.register("nether_coal_ore", () -> OreManager.NETHER_COAL_ORE);
+    public static final RegistryObject<Block> NETHER_DIAMOND_ORE = BLOCKS.register("nether_diamond_ore", () -> OreManager.NETHER_DIAMOND_ORE);
+    public static final RegistryObject<Block> NETHER_EMERALD_ORE = BLOCKS.register("nether_emerald_ore", () -> OreManager.NETHER_EMERALD_ORE);
+    public static final RegistryObject<Block> NETHER_IRON_ORE = BLOCKS.register("nether_iron_ore", () -> OreManager.NETHER_IRON_ORE);
+    public static final RegistryObject<Block> NETHER_LAPIS_ORE = BLOCKS.register("nether_lapis_ore", () -> OreManager.NETHER_LAPIS_ORE);
+    public static final RegistryObject<Block> NETHER_LEAD_ORE = BLOCKS.register("nether_lead_ore", () -> OreManager.NETHER_LEAD_ORE);
+    public static final RegistryObject<Block> NETHER_NICKEL_ORE = BLOCKS.register("nether_nickel_ore", () -> OreManager.NETHER_NICKEL_ORE);
+    public static final RegistryObject<Block> NETHER_OSMIUM_ORE = BLOCKS.register("nether_osmium_ore", () -> OreManager.NETHER_OSMIUM_ORE);
+    public static final RegistryObject<Block> NETHER_PLATINUM_ORE = BLOCKS.register("nether_platinum_ore", () -> OreManager.NETHER_PLATINUM_ORE);
+    public static final RegistryObject<Block> NETHER_SILVER_ORE = BLOCKS.register("nether_silver_ore", () -> OreManager.NETHER_SILVER_ORE);
+    public static final RegistryObject<Block> NETHER_TIN_ORE = BLOCKS.register("nether_tin_ore", () -> OreManager.NETHER_TIN_ORE);
+    public static final RegistryObject<Block> NETHER_URANIUM_ORE = BLOCKS.register("nether_uranium_ore", () -> OreManager.NETHER_URANIUM_ORE);
+    public static final RegistryObject<Block> NETHER_ZINC_ORE = BLOCKS.register("nether_zinc_ore", () -> OreManager.NETHER_ZINC_ORE);
 
     //END ORES
+    public static final RegistryObject<Block> END_ALUMINUM_ORE = BLOCKS.register("end_aluminum_ore", () -> OreManager.END_ALUMINUM_ORE);
+    public static final RegistryObject<Block> END_COAL_ORE = BLOCKS.register("end_coal_ore", () -> OreManager.END_COAL_ORE);
+    public static final RegistryObject<Block> END_COPPER_ORE = BLOCKS.register("end_copper_ore", () -> OreManager.END_COPPER_ORE);
+    public static final RegistryObject<Block> END_DIAMOND_ORE = BLOCKS.register("end_diamond_ore", () -> OreManager.END_DIAMOND_ORE);
+    public static final RegistryObject<Block> END_EMERALD_ORE = BLOCKS.register("end_emerald_ore", () -> OreManager.END_EMERALD_ORE);
+    public static final RegistryObject<Block> END_GOLD_ORE = BLOCKS.register("end_gold_ore", () -> OreManager.END_GOLD_ORE);
+    public static final RegistryObject<Block> END_IRON_ORE = BLOCKS.register("end_iron_ore", () -> OreManager.END_IRON_ORE);
+    public static final RegistryObject<Block> END_LAPIS_ORE = BLOCKS.register("end_lapis_ore", () -> OreManager.END_LAPIS_ORE);
+    public static final RegistryObject<Block> END_LEAD_ORE = BLOCKS.register("end_lead_ore", () -> OreManager.END_LEAD_ORE);
+    public static final RegistryObject<Block> END_NICKEL_ORE = BLOCKS.register("end_nickel_ore", () -> OreManager.END_NICKEL_ORE);
+    public static final RegistryObject<Block> END_OSMIUM_ORE = BLOCKS.register("end_osmium_ore", () -> OreManager.END_OSMIUM_ORE);
+    public static final RegistryObject<Block> END_PLATINUM_ORE = BLOCKS.register("end_platinum_ore", () -> OreManager.END_PLATINUM_ORE);
+    public static final RegistryObject<Block> END_SILVER_ORE = BLOCKS.register("end_silver_ore", () -> OreManager.END_SILVER_ORE);
     public static final RegistryObject<Block> END_TIN_ORE = BLOCKS.register("end_tin_ore", () -> OreManager.END_TIN_ORE);
+    public static final RegistryObject<Block> END_URANIUM_ORE = BLOCKS.register("end_uranium_ore", () -> OreManager.END_URANIUM_ORE);
+    public static final RegistryObject<Block> END_ZINC_ORE = BLOCKS.register("end_zinc_ore", () -> OreManager.END_ZINC_ORE);
 
     //DENSE ORES
     public static final RegistryObject<Block> DENSE_IRON_ORE = BLOCKS.register("dense_iron_ore", () -> OreManager.DENSE_IRON_ORE);
@@ -79,9 +108,26 @@ public class RegistryHandler {
     public static final RegistryObject<Item> ZINC_ORE_ITEM = ITEMS.register("zinc_ore", () -> new BaseBlockItem(ZINC_ORE.get()));
 
    //NETHER ORE ITEMS
+    public static final RegistryObject<Item> NETHER_ALUMINUM_ORE_ITEM = ITEMS.register("nether_aluminum_ore", () -> new BaseBlockItem(NETHER_ALUMINUM_ORE.get()));
     public static final RegistryObject<Item> NETHER_COPPER_ORE_ITEM = ITEMS.register("nether_copper_ore", () -> new BaseBlockItem(NETHER_COPPER_ORE.get()));
+    public static final RegistryObject<Item> NETHER_COAL_ORE_ITEM = ITEMS.register("nether_coal_ore", () -> new BaseBlockItem(NETHER_COAL_ORE.get()));
+    public static final RegistryObject<Item> NETHER_DIAMOND_ORE_ITEM = ITEMS.register("nether_diamond_ore", () -> new BaseBlockItem(NETHER_DIAMOND_ORE.get()));
+    public static final RegistryObject<Item> NETHER_EMERALD_ORE_ITEM = ITEMS.register("nether_emerald_ore", () -> new BaseBlockItem(NETHER_EMERALD_ORE.get()));
+    public static final RegistryObject<Item> NETHER_IRON_ORE_ITEM = ITEMS.register("nether_iron_ore", () -> new BaseBlockItem(NETHER_IRON_ORE.get()));
+    public static final RegistryObject<Item> NETHER_LAPIS_ORE_ITEM = ITEMS.register("nether_lapis_ore", () -> new BaseBlockItem(NETHER_LAPIS_ORE.get()));
+    public static final RegistryObject<Item> NETHER_LEAD_ORE_ITEM = ITEMS.register("nether_lead_ore", () -> new BaseBlockItem(NETHER_LEAD_ORE.get()));
+    public static final RegistryObject<Item> NETHER_NICKEL_ORE_ITEM = ITEMS.register("nether_nickel_ore", () -> new BaseBlockItem(NETHER_NICKEL_ORE.get()));
+    public static final RegistryObject<Item> NETHER_OSMIUM_ORE_ITEM = ITEMS.register("nether_osmium_ore", () -> new BaseBlockItem(NETHER_OSMIUM_ORE.get()));
+    public static final RegistryObject<Item> NETHER_PLATINUM_ORE_ITEM = ITEMS.register("nether_platinum_ore", () -> new BaseBlockItem(NETHER_PLATINUM_ORE.get()));
+    public static final RegistryObject<Item> NETHER_SILVER_ORE_ITEM = ITEMS.register("nether_silver_ore", () -> new BaseBlockItem(NETHER_SILVER_ORE.get()));
+    public static final RegistryObject<Item> NETHER_TIN_ORE_ITEM = ITEMS.register("nether_tin_ore", () -> new BaseBlockItem(NETHER_TIN_ORE.get()));
+    public static final RegistryObject<Item> NETHER_URANIUM_ORE_ITEM = ITEMS.register("nether_uranium_ore", () -> new BaseBlockItem(NETHER_URANIUM_ORE.get()));
+    public static final RegistryObject<Item> NETHER_ZINC_ORE_ITEM = ITEMS.register("nether_zinc_ore", () -> new BaseBlockItem(NETHER_ZINC_ORE.get()));
 
    //END ORES ITEMS
+
+    //TODO Register all the ITEM BLOCK FORMS OF END ORES
+    
     public static final RegistryObject<Item> END_TIN_ORE_ITEM = ITEMS.register("end_tin_ore", () -> new BaseBlockItem(END_TIN_ORE.get()));
 
     //DENSE ORES ITEMS
@@ -125,37 +171,13 @@ public class RegistryHandler {
     public static final RegistryObject<Item> ZINC_NUGGET = ITEMS.register("zinc_nugget", BaseNugget::new);
 
     @OnlyIn(Dist.CLIENT)
-    public static void registerRenderer() {
-        //Blocks
-        for(RegistryObject<Block> block:BLOCKS.getEntries()) {
-            if (block.get() instanceof Ore) {
-                registerBlockRenderer(((Ore) block.get()).getColor(), block.get());
+    public static void onRegisterRenderer() {
+        for(RegistryObject<Block> block : BLOCKS.getEntries()){
+            if(block.get() instanceof Ore) {
+                RenderTypeLookup.setRenderLayer(block.get(),RenderType.cutout());
             }
         }
-
-        //Items
-        registerItemRenderer(OreManager.ALUMINUM_ORE.getColor(), ALUMINUM_INGOT.get(), ALUMINUM_NUGGET.get());
-        registerItemRenderer(OreManager.COPPER_ORE.getColor(), COPPER_INGOT.get(), COPPER_NUGGET.get());
-        registerItemRenderer(OreManager.LEAD_ORE.getColor(), LEAD_INGOT.get(), LEAD_NUGGET.get());
-        registerItemRenderer(OreManager.NICKEL_ORE.getColor(), NICKEL_INGOT.get(), NICKEL_NUGGET.get());
-        registerItemRenderer(OreManager.OSMIUM_ORE.getColor(), OSMIUM_INGOT.get(), OSMIUM_NUGGET.get());
-        registerItemRenderer(OreManager.PLATINUM_ORE.getColor(), PLATINUM_INGOT.get(), PLATINUM_NUGGET.get());
-        registerItemRenderer(OreManager.SILVER_ORE.getColor(), SILVER_INGOT.get(), SILVER_NUGGET.get());
-        registerItemRenderer(OreManager.TIN_ORE.getColor(), TIN_INGOT.get(), TIN_NUGGET.get());
-        registerItemRenderer(OreManager.URANIUM_ORE.getColor(), URANIUM_INGOT.get(), URANIUM_NUGGET.get());
-        registerItemRenderer(OreManager.ZINC_ORE.getColor(), ZINC_INGOT.get(), ZINC_NUGGET.get());
     }
 
-    @OnlyIn(Dist.CLIENT)
-    public static void registerBlockRenderer(int color, Block block) {
-        Minecraft.getInstance().getItemColors().register((stack, tintIndex) -> tintIndex > 0 ? -1 : color, block.getBlock().asItem());
-        Minecraft.getInstance().getBlockColors().register((state, reader, blockPos, tintIndex) -> tintIndex > 0 ? -1 : color, block);
-        RenderTypeLookup.setRenderLayer(block, RenderType.cutoutMipped());
-    }
 
-    @OnlyIn(Dist.CLIENT)
-    public static void registerItemRenderer(int color, Item ingot, Item nugget) {
-        Minecraft.getInstance().getItemColors().register((stack, tintIndex) -> tintIndex > 0 ? -1 : color, ingot);
-        Minecraft.getInstance().getItemColors().register((stack, tintIndex) -> tintIndex > 0 ? -1 : color, nugget);
-    }
 }

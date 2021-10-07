@@ -40,6 +40,6 @@ public class FabulousOres {
     }
 
     private void clientSetup(FMLClientSetupEvent evt) {
-        RegistryHandler.registerRenderer();
+        RegistryHandler.onRegisterRenderer();
     }
 }

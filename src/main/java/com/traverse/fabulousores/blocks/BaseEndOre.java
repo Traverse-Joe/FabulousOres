@@ -17,12 +17,12 @@ import java.util.Random;
 
 public class BaseEndOre extends BaseOreBlock {
 
-    public BaseEndOre(String name, int harvestLevel, int color) {
-        super(name, harvestLevel, color);
+    public BaseEndOre(String name, int harvestLevel) {
+        super(name, harvestLevel);
     }
 
     public BaseEndOre(String name, BaseOreBlock base) {
-        super(name, base.harvestLevel, base.color);
+        super(name, base.harvestLevel);
     }
 
     @Override

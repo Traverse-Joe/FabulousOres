@@ -11,14 +11,12 @@ import net.minecraftforge.common.ToolType;
 public abstract class Ore extends Block {
 
     protected ResourceLocation id;
-    protected  int color;
     protected  int harvestLevel;
 
-    public Ore(String name, int harvestLevel, int color) {
+    public Ore(String name, int harvestLevel) {
         super(AbstractBlock.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.0F));
         this.id = new ResourceLocation(FabulousOres.MOD_ID, name);
         this.harvestLevel = harvestLevel;
-        this.color = color;
     }
 
     @Override
@@ -39,7 +37,4 @@ public abstract class Ore extends Block {
         return id;
     }
 
-    public int getColor() {
-        return color;
-    }
 }

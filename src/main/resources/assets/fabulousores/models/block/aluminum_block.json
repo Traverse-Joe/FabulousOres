@@ -1,3 +1,6 @@
 {
-  "parent": "fabulousores:block/block_template"
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fabulousores:blocks/aluminum_block"
+  }
 }

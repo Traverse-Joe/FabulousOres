@@ -69,25 +69,25 @@ public class OreManager {
 
     public static void init() {
         //MODDED ORES
-        ALUMINUM_ORE = new BaseOreBlock("aluminum",1, 0xFFFFFF);
-        COPPER_ORE = new BaseOreBlock("copper",1, 0xFF7214);
-        LEAD_ORE = new BaseOreBlock("lead", 2, 0x9F8EFF);
-        NICKEL_ORE = new BaseOreBlock("nickel", 2, 0xFFDC91);
-        OSMIUM_ORE = new BaseOreBlock("osmium", 1, 0x609AFF);
-        PLATINUM_ORE = new BaseOreBlock("platinum", 3, 0x00A1FF);
-        SILVER_ORE = new BaseOreBlock("silver", 2, 0xC1D1F4);
-        TIN_ORE = new BaseOreBlock("tin", 1, 0xA8EDFF);
-        URANIUM_ORE = new BaseOreBlock("uranium", 2, 0xA7EA20);
-        ZINC_ORE = new BaseOreBlock("zinc", 2, 0xA7F2DF);
+        ALUMINUM_ORE = new BaseOreBlock("aluminum",1);
+        COPPER_ORE = new BaseOreBlock("copper",1);
+        LEAD_ORE = new BaseOreBlock("lead", 2);
+        NICKEL_ORE = new BaseOreBlock("nickel", 2);
+        OSMIUM_ORE = new BaseOreBlock("osmium", 1);
+        PLATINUM_ORE = new BaseOreBlock("platinum", 3);
+        SILVER_ORE = new BaseOreBlock("silver", 2);
+        TIN_ORE = new BaseOreBlock("tin", 1);
+        URANIUM_ORE = new BaseOreBlock("uranium", 2);
+        ZINC_ORE = new BaseOreBlock("zinc", 2);
 
         //NETHER ORES
         NETHER_ALUMINUM_ORE = new BaseNetherOre("nether_aluminum", ALUMINUM_ORE);
-        NETHER_COAL_ORE = new BaseNetherOre("nether_coal", 1, 0xFFC62B);
+        NETHER_COAL_ORE = new BaseNetherOre("nether_coal", 1);
         NETHER_COPPER_ORE = new BaseNetherOre("nether_copper", COPPER_ORE);
-        NETHER_DIAMOND_ORE = new BaseNetherOre("nether_diamond", 2, 0x3EFFFF);
-        NETHER_EMERALD_ORE =new BaseNetherOre("nether_emerald", 2, 0x34AF00);
-        NETHER_IRON_ORE = new BaseNetherOre("nether_iron", 1, 0xFFD8B5);
-        NETHER_LAPIS_ORE = new BaseNetherOre("nether_lapis", 1, 0x0043FF);
+        NETHER_DIAMOND_ORE = new BaseNetherOre("nether_diamond", 2);
+        NETHER_EMERALD_ORE =new BaseNetherOre("nether_emerald", 2);
+        NETHER_IRON_ORE = new BaseNetherOre("nether_iron", 1);
+        NETHER_LAPIS_ORE = new BaseNetherOre("nether_lapis", 1);
         NETHER_LEAD_ORE = new BaseNetherOre("nether_lead", LEAD_ORE);
         NETHER_NICKEL_ORE = new BaseNetherOre("nether_nickel", NICKEL_ORE);
         NETHER_OSMIUM_ORE = new BaseNetherOre("nether_osmium", OSMIUM_ORE);
@@ -103,7 +103,7 @@ public class OreManager {
         END_COPPER_ORE = new BaseEndOre("end_copper", COPPER_ORE);
         END_DIAMOND_ORE = new BaseEndOre("end_diamond", NETHER_DIAMOND_ORE);
         END_EMERALD_ORE =new BaseEndOre("end_emerald", NETHER_EMERALD_ORE);
-        END_GOLD_ORE = new BaseEndOre("end_gold", 2, 0xFFC62B);
+        END_GOLD_ORE = new BaseEndOre("end_gold", 2);
         END_IRON_ORE = new BaseEndOre("end_iron", NETHER_IRON_ORE);
         END_LAPIS_ORE = new BaseEndOre("end_lapis", NETHER_LAPIS_ORE);
         END_LEAD_ORE = new BaseEndOre("end_lead", LEAD_ORE);

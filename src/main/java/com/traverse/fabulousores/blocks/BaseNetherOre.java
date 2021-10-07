@@ -22,12 +22,12 @@ import java.util.Random;
 public class BaseNetherOre extends BaseOreBlock {
 
 
-    public BaseNetherOre(String name, int harvestLevel, int color) {
-        super(name, harvestLevel, color);
+    public BaseNetherOre(String name, int harvestLevel) {
+        super(name, harvestLevel);
     }
 
     public BaseNetherOre(String name, BaseOreBlock base) {
-        super(name, base.harvestLevel, base.color);
+        super(name, base.harvestLevel);
     }
 
     @Override

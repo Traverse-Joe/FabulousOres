@@ -1,3 +1,6 @@
 {
-  "parent": "fabulousores:block/base_template"
+  "parent": "fabulousores:block/base_template",
+  "textures": {
+    "overlay": "fabulousores:blocks/lead_ore"
+  }
 }

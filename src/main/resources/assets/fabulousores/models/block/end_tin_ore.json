@@ -1,3 +1,6 @@
 {
-  "parent": "fabulousores:block/end_template"
+  "parent": "fabulousores:block/end_template",
+  "textures": {
+    "overlay": "fabulousores:blocks/copper_ore"
+  }
 }
